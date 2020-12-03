@@ -6,30 +6,41 @@
 }
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 div#container{
    position: relative;
+   border: 1px solid black;
+   background-color: grey;
+   padding:20px; 
+   margin:20px;
+}
+div#forpad{
+  border: none;
 }
 
 p {
-  border: 1px solid black;
-  background-color: grey;
   width: 90%;
-  height: 150px;
+  height: auto;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  color: black;
 
 }
 
 #pt {
-  height: 1em;
-  width: auto;
+  border: 1px solid black;
+  background-color: red;
+  font-size: 150%;
+  height: auto;
+  width: 8em;
   position: absolute;
   top:0;
-  right:25px; 
+  right:0; 
+  margin:0;
+  text-align: center;
 }
 
 /* Simple Responsive Framework. */
